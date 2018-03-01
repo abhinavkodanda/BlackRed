@@ -24,6 +24,7 @@ namespace BlackRed
                     result = result + "Red";
 
                 // Step 4 - Divisible by 3 and 5 print BlackRed
+                // We need not check for divisibility for both 3 and 5, as we are using String to store result
 
                 // Step 5 - Print the number as it is if not divisible by either 3 or 5
                 if (result == "")
